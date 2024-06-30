@@ -4,11 +4,11 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full" id="experience">
-      <h1 className="heading">
+    <div className="py-20 w-full flex flex-col  items-center" id="experience">
+      <h1 className="heading pb-15 lg:pb-20">
         My <span className="text-purple">work experience</span>
       </h1>
-      <div className="w-full mt-12 grid grid-cols-1 lg:grid-cols-4 gap-10">
+      <div className="w-full lg:w-[45%] mt-12 gap-10">
         {workExperience.map((card) => (
           <Button
             key={card.id}

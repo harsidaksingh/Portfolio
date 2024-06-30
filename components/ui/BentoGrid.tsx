@@ -107,7 +107,7 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#C1C2D3] text-sm md:text-xs lg:text-base z-10 md:max-w-32">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg  lg:text-3xl max-w-96 z-10">
+          <div className="font-sans font-bold text-lg  lg:text-2xl max-w-96 z-10">
             {title}
           </div>
           {id === 2 && <GlobeDemo />}
@@ -115,7 +115,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-1 ">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {["React.js", "Next.js", "TypeScript"].map((item) => (
+                {["Html", "CSS", "JavaScript"].map((item) => (
                   <span
                     key={item}
                     className="/*lg:py-4 lg:px-3*/ py-2 px-3 text-xs  opacity-50
@@ -129,7 +129,7 @@ export const BentoGridItem = ({
 
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="  py-4 px-3  rounded-lg text-center bg-[#10132E]" />
-                {["MySQL", "MongoDB", "C++"].map((item) => (
+                {["C++", "TypeScript", "Reactjs"].map((item) => (
                   <span
                     key={item}
                     className="/*lg:py-4 lg:px-3*/ py-2 px-3 text-xs  opacity-50
@@ -138,6 +138,18 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
+              </div>
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+                {["Nextjs", "MySQL", "MongoDB"].map((item) => (
+                  <span
+                    key={item}
+                    className="/*lg:py-4 lg:px-3*/ py-2 px-3 text-xs  opacity-50
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="  py-4 px-3  rounded-lg text-center bg-[#10132E]" />
               </div>
             </div>
           )}
