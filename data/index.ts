@@ -79,7 +79,7 @@ export const projects = [
     des: "A Discord clone, featuring all the functionalities of the Discord app, including video calls and video conferencing.",
     img: "/kinnect.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/mysql.svg"],
-    link: "https://kinnect-production.up.railway.app/",
+    link: "https://kinnect-five.vercel.app/",
   },
   {
     id: 2,
